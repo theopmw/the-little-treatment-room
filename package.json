@@ -1,0 +1,28 @@
+{
+  "name": "the-little-treatment-room",
+  "description": "Website for The Little Treatment Room",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theopmw/the-little-treatment-room.git"
+  },
+  "author": "Theo Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theopmw/the-little-treatment-room/issues"
+  },
+  "homepage": "https://github.com/theopmw/the-little-treatment-room#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "autoprefixer": "^10.4.12",
+    "bootstrap": "^5.2.2",
+    "postcss-cli": "^10.0.0"
+  }
+}
