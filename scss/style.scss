@@ -1,2 +1,16 @@
 @use 'custom';
-$primary-color: #7c8d95;
+
+// IMPORT COMPONENTS
+
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// IMPORT SECTIONS
+
+@use 'sections/navbar';
+@use 'sections/about';
+@use 'sections/prices';
+@use 'sections/contact';
+@use 'sections/footer';
