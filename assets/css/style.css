@@ -10771,6 +10771,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-square {
+  position: relative;
+  padding: 0.9375rem 1.25rem;
+  font-weight: 500;
+  margin: 0;
+  border-radius: 0;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(49, 101, 125, 0.95), rgba(124, 141, 149, 0.95));
 }
