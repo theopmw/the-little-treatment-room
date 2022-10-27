@@ -10785,6 +10785,11 @@ textarea.form-control-lg {
 .menu li {
   padding: 0 1.25rem;
 }
+@media (max-width: 991.98px) {
+  .menu li {
+    padding-left: 0;
+  }
+}
 .menu li a {
   color: #fff;
   font-weight: 600;

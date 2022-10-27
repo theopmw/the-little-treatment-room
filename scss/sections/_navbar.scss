@@ -5,6 +5,9 @@
   @include gradient;
 
   li {
+    @include media-breakpoint-down(lg) {
+      padding-left: 0;
+    }
     padding: 0 1.25rem;
 
     a {
