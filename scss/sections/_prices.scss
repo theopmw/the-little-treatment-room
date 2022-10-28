@@ -3,30 +3,21 @@
 
 .accordion-button {
   @include gradient;
-  color: black;
-}
-
-.accordion-button:not(.collapsed) {
-  color: white !important;
-  // REMOVE BOX SHADOW WHEN ACCORDION ITEM IS OPEN
-  // box-shadow: none !important;
-}
-
-.accordion-button {
-  color: #fff;
+  color: #fff !important;
   // box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 2.6px;
-}
 
-// REMOVE BORDER ON ACORDION BUTTON FOCUS
-.accordion-button:focus {
-  box-shadow: none;
-  border-color: rgba(0, 0, 0, 0.125);
-}
+  &:not(.collapsed) {
+    color: white !important;
+    // REMOVE BOX SHADOW WHEN ACCORDION ITEM IS OPEN
+    // box-shadow: none !important;
+  }
+  // REMOVE BORDER ON ACORDION BUTTON FOCUS
+  &:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, 0.125);
+  }
 
-.accordion-button:hover {
-  box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 2.6px;
-}
-
-.accordion-button:hover {
-  box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 2.6px;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 2.6px;
+  }
 }

@@ -1,3 +1,16 @@
+@use '../custom' as *;
+
 // DISPLAY 3
 .display-3 {
+  color: $primary;
+}
+
+// FONTS
+
+.font-primary {
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.font-secondary {
+  font-family: 'Montserrat', sans-serif;
 }

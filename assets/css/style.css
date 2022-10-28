@@ -10778,6 +10778,21 @@ textarea.form-control-lg {
   border-radius: 0;
   color: #fff;
 }
+.btn-square:hover {
+  color: #fff;
+}
+
+.display-3 {
+  color: #588398;
+}
+
+.font-primary {
+  font-family: "Gothic A1", sans-serif;
+}
+
+.font-secondary {
+  font-family: "Montserrat", sans-serif;
+}
 
 .menu {
   background: linear-gradient(to right, rgba(49, 101, 125, 0.95), rgba(88, 131, 152, 0.95));
@@ -10801,26 +10816,15 @@ textarea.form-control-lg {
 
 .accordion-button {
   background: linear-gradient(to right, rgba(49, 101, 125, 0.95), rgba(88, 131, 152, 0.95));
-  color: black;
+  color: #fff !important;
 }
-
 .accordion-button:not(.collapsed) {
   color: white !important;
 }
-
-.accordion-button {
-  color: #fff;
-}
-
 .accordion-button:focus {
   box-shadow: none;
   border-color: rgba(0, 0, 0, 0.125);
 }
-
-.accordion-button:hover {
-  box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 2.6px;
-}
-
 .accordion-button:hover {
   box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 2.6px;
 }
