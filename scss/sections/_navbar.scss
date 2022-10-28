@@ -4,6 +4,11 @@
 .menu {
   @include gradient;
 
+  .navbar-brand img {
+    width: 161px;
+    height: 100px;
+  }
+
   li {
     @include media-breakpoint-down(lg) {
       padding-left: 0;

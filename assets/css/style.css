@@ -10782,6 +10782,10 @@ textarea.form-control-lg {
 .menu {
   background: linear-gradient(to right, rgba(49, 101, 125, 0.95), rgba(88, 131, 152, 0.95));
 }
+.menu .navbar-brand img {
+  width: 161px;
+  height: 100px;
+}
 .menu li {
   padding: 0 1.25rem;
 }
