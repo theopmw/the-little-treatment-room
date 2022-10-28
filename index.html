@@ -35,17 +35,18 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav font-primary">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            <a class="nav-link one active" aria-current="page" href="#">HOME</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item two">
             <a class="nav-link" href="#">ABOUT</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item three">
             <a class="nav-link" href="#">PRICING</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item four">
             <a class="nav-link" href="#">CONTACT</a>
           </li>
+          <hr />
         </ul>
       </div>
     </div>
@@ -56,7 +57,8 @@
   <section id="prices" class="prices-section">
     <div class="container">
       <div class="row text-center">
-        <h2 class="display-3 fw-bold text-uppercase mt-3 mb-3">Price List</h2>
+        <h2 class="display-3 fw-bold text-uppercase mt-3 mb-3">Price
+          List</h2>
       </div>
       <!-- ACCORDION CONTENT -->
 
@@ -136,25 +138,27 @@
         <div class="col-12 col-lg-6 bg-white shadow p-3">
           <div class="form w-100 pb-2 text-center">
             <h4 class="display-3--title mb-3">Get in touch</h4>
-            <form action="#" class="row">
+            <form action="https://formsubmit.co/littletreatmentroom@gmail.com" method="POST" class="row">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_subject" value="New inquiry for The Little Treatment Room">
               <div class="col-lg-6 col-md-6 mb-3">
-                <input type="text" placeholder="First Name" id="inputFirstName"
-                  class="shadow form-control form-control-lg">
+                <input type="text" name="First Name" placeholder="First Name" id="inputFirstName"
+                  class="shadow form-control form-control-lg" required>
               </div>
               <div class="col-lg-6 col-md-6 mb-3">
-                <input type="text" placeholder="Last Name" id="inputLastName"
-                  class="shadow form-control form-control-lg">
+                <input type="text" name="Last Name" placeholder="Last Name" id="inputLastName"
+                  class="shadow form-control form-control-lg" required>
               </div>
               <div class="col-lg-12 mb-3">
-                <input type="email" placeholder="Email" id="inputEmail" class="shadow form-control form-control-lg">
+                <input type="email" name="Email" placeholder="Email" id="inputEmail"
+                  class="shadow form-control form-control-lg" required>
               </div>
               <div class="col-lg-12 mb-3">
-                <textarea name="message" placeholder="Message" id="message" cols="30" rows="8"
-                  class="shadow form-control form-control-lg"></textarea>
-
+                <textarea name="Message" placeholder="Message" id="message" cols="30" rows="8"
+                  class="shadow form-control form-control-lg" required></textarea>
               </div>
               <div class="text-center d-grid mt-1">
-                <button type="button" class="btn btn-primary btn-square pt-3 pb-3 text-uppercase">Send
+                <button type="submit" class="btn btn-primary btn-square pt-3 pb-3 text-uppercase">Send
                   <i class="fas fa-paper-plane pl-1"></i>
                 </button>
               </div>
