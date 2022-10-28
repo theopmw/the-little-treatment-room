@@ -10786,6 +10786,21 @@ textarea.form-control-lg {
   color: #588398;
   font-family: "Gothic A1", sans-serif;
 }
+.display-3--title {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  background-image: linear-gradient(to right, #588398, #31657d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
+}
 
 .font-primary {
   font-family: "Gothic A1", sans-serif;
@@ -10795,8 +10810,12 @@ textarea.form-control-lg {
   font-family: "Montserrat", sans-serif;
 }
 
+.gradient {
+  background: linear-gradient(to right, rgba(88, 131, 152, 0.95), rgba(49, 101, 125, 0.95));
+}
+
 .menu {
-  background: linear-gradient(to right, rgba(49, 101, 125, 0.95), rgba(88, 131, 152, 0.95));
+  background: linear-gradient(to right, rgba(88, 131, 152, 0.95), rgba(49, 101, 125, 0.95));
 }
 .menu .navbar-brand img {
   width: 161px;
@@ -10815,19 +10834,40 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 
-.accordion-button {
-  background: linear-gradient(to right, rgba(49, 101, 125, 0.95), rgba(88, 131, 152, 0.95));
+.prices-section {
+  padding: 4rem 0;
+}
+.prices-section .accordion-button {
+  background: linear-gradient(to right, rgba(88, 131, 152, 0.95), rgba(49, 101, 125, 0.95));
   color: #fff !important;
 }
-.accordion-button:not(.collapsed) {
+.prices-section .accordion-button:not(.collapsed) {
   color: white !important;
 }
-.accordion-button:focus {
+.prices-section .accordion-button:focus {
   box-shadow: none;
   border-color: rgba(0, 0, 0, 0.125);
 }
-.accordion-button:hover {
+.prices-section .accordion-button:hover {
   box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 2.6px;
+}
+
+.contact-section {
+  padding: 4rem 0;
+  background: #e9ecef;
+}
+
+.contact-info {
+  color: #fff;
+  padding: 3rem;
+  margin: 1rem 0;
+}
+
+.form {
+  padding: 3rem;
+}
+.form .form-control {
+  border-radius: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

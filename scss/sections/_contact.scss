@@ -1,0 +1,22 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.contact-section {
+  padding: 4rem 0;
+  background: $gray-200;
+}
+
+.contact-info {
+  color: #fff;
+  padding: 3rem;
+  margin: 1rem 0;
+}
+
+// FORM CONTENT
+.form {
+  padding: 3rem;
+
+  .form-control {
+    border-radius: 0;
+  }
+}
